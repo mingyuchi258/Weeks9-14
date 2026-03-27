@@ -12,7 +12,7 @@ public class knight2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //TRY
     }
     public void footsteps()
     {
