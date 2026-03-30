@@ -7,14 +7,15 @@ public class movecontro : MonoBehaviour
     public float speed = 4;
     public Vector2 movement;
     public Transform weapon;
+    public Transform Weapon;
 
-Coroutine attackC;
-
+    Coroutine attackC;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
 
     }
-
+    // Update is called once per frame
     void Update()
     {
         transform.position += (Vector3)movement * speed * Time.deltaTime;

@@ -16,7 +16,6 @@ public class contro : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //transform.position += (Vector3)movement * speed * Time.deltaTime;
         transform.position = movement;
     }
     public void OnPoint(InputAction.CallbackContext context)
