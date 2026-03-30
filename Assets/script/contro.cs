@@ -34,7 +34,7 @@ public class contro : MonoBehaviour
 
     public void OnAttak(InputAction.CallbackContext context)
     {
-        Debug.Log("attack" + context.phase);
+        Debug.Log("attack");
         if(context.performed == true)
         {
             a.Play();
