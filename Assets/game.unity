@@ -148,24 +148,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5cdebd07b35fbd4b8762e49e71847f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::gmaker
-  Ghost: {fileID: 558947434049195593, guid: d9d09303b8b59d24db3c5462288d5b42, type: 3}
+  PF: {fileID: 558947434049195593, guid: d9d09303b8b59d24db3c5462288d5b42, type: 3}
   player: {fileID: 665335712}
-  contactDistance: 1
   GhostAttack:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 110025193}
-        m_TargetAssemblyTypeName: gmaker, Assembly-CSharp
-        m_MethodName: fankui
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   HealthEffect:
     m_PersistentCalls:
       m_Calls: []
@@ -802,24 +789,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5cdebd07b35fbd4b8762e49e71847f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::gmaker
-  Ghost: {fileID: 558947434049195593, guid: d9d09303b8b59d24db3c5462288d5b42, type: 3}
+  PF: {fileID: 558947434049195593, guid: d9d09303b8b59d24db3c5462288d5b42, type: 3}
   player: {fileID: 665335712}
-  contactDistance: 1
   GhostAttack:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 681874242}
-        m_TargetAssemblyTypeName: gmaker, Assembly-CSharp
-        m_MethodName: fankui
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   HealthEffect:
     m_PersistentCalls:
       m_Calls: []
@@ -868,24 +842,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5cdebd07b35fbd4b8762e49e71847f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::gmaker
-  Ghost: {fileID: 558947434049195593, guid: d9d09303b8b59d24db3c5462288d5b42, type: 3}
+  PF: {fileID: 558947434049195593, guid: d9d09303b8b59d24db3c5462288d5b42, type: 3}
   player: {fileID: 665335712}
-  contactDistance: 1
   GhostAttack:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 863694750}
-        m_TargetAssemblyTypeName: gmaker, Assembly-CSharp
-        m_MethodName: fankui
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   HealthEffect:
     m_PersistentCalls:
       m_Calls: []
@@ -4911,24 +4872,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5cdebd07b35fbd4b8762e49e71847f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::gmaker
-  Ghost: {fileID: 558947434049195593, guid: d9d09303b8b59d24db3c5462288d5b42, type: 3}
+  PF: {fileID: 558947434049195593, guid: d9d09303b8b59d24db3c5462288d5b42, type: 3}
   player: {fileID: 665335712}
-  contactDistance: 1
   GhostAttack:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1963655610}
-        m_TargetAssemblyTypeName: gmaker, Assembly-CSharp
-        m_MethodName: fankui
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   HealthEffect:
     m_PersistentCalls:
       m_Calls: []
@@ -5179,9 +5127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5cdebd07b35fbd4b8762e49e71847f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::gmaker
-  Ghost: {fileID: 9104236803585057039, guid: b8d487266249ac1408de736e71089655, type: 3}
+  PF: {fileID: 9104236803585057039, guid: b8d487266249ac1408de736e71089655, type: 3}
   player: {fileID: 665335712}
-  contactDistance: 1
   GhostAttack:
     m_PersistentCalls:
       m_Calls: []
