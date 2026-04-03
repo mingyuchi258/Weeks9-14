@@ -12,6 +12,8 @@ public class gmaker : MonoBehaviour
     public UnityEvent GhostAttack;
     //Triggered when the prefab disappears after being attacked by a player
     public UnityEvent HealthEffect;
+    //Select the type of prefab to generate
+    public UnityEvent MakePrefabs;
 
     //list that stores prefabs
     List<GameObject> GL;
@@ -21,13 +23,14 @@ public class gmaker : MonoBehaviour
     //Waiting time between each generation
     float waitSpeed = 15;
 
+    public HealthBar healthbar;
+
 
     void Start()
     {
         GL = new List<GameObject>();
 
-        StartCoroutine(InstanGhostV());
-        StartCoroutine(InstanHealthV());
+        MakePrefabs.Invoke();
     }
 
     void Update()
@@ -85,7 +88,7 @@ public class gmaker : MonoBehaviour
     IEnumerator InstanHealthV()
     {
         //Medicine generation rule
-        while (gameStart == false)
+        while (gameStart == true)
         {
             //Randomly generate a specified number of prefabs within the specified range and add them to the list
             for (int i = 0; i < x; i++)
@@ -97,6 +100,27 @@ public class gmaker : MonoBehaviour
             //Generates every 40 seconds
             yield return new WaitForSeconds(40);
         }
+    }
+    //Increase health
+    public void healthV()
+    {
+        healthbar.health = healthbar.health + 2;
+    }
+    //Reduce health
+    public void attaV()
+    {
+        healthbar.health--;
+    }
+
+    //Continuously generate ghost prefab
+    public void MakeGhost()
+    {
+        StartCoroutine(InstanGhostV());
+    }
+    //Continuously generate medicine prefab
+    public void MakeMedicine()
+    {
+        StartCoroutine(InstanHealthV());
     }
 
 }
