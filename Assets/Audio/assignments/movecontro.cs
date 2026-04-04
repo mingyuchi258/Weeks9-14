@@ -29,13 +29,17 @@ public class movecontro : MonoBehaviour
     //Attack value
     public void OnAttack(InputAction.CallbackContext context)
     {
-        //Stop if weapons are being used
-        if (attackC != null)
+        //Each press triggers only one attack
+        if (context.performed == true)
         {
-            StopCoroutine(attackC);
+            //Stop if weapons are being used
+            if (attackC != null)
+            {
+                StopCoroutine(attackC);
+            }
+            //Start use weapon attack effect
+            attackC = StartCoroutine(useWeapon());
         }
-        //Start use weapon attack effect
-        attackC = StartCoroutine(useWeapon());
     }
 
     //Use weapon attack effect
